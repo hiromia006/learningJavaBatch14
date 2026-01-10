@@ -1,13 +1,13 @@
 package class7;
 
-public class GenericWithWildCard <T extends Number> {
-    private T value;
+public class GenericWithWildCard <N extends Number> {
+    private N value;
 
-    public GenericWithWildCard(T value) {
+    public GenericWithWildCard(N value) {
         this.value = value;
     }
 
-    public T getValue() {
+    public N getValue() {
         return value;
     }
 }
